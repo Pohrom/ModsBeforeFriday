@@ -23,7 +23,7 @@ use std::{
 };
 
 /// The ID of the APK file that MBF manages.
-pub const APK_ID: &str = "com.beatgames.beatsaber";
+pub const APK_ID: &str = "com.beatgames.beatpaber";
 
 #[cfg(feature = "request_timing")]
 use log::info;

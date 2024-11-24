@@ -35,7 +35,7 @@ mod release_editor;
 mod res_cache;
 mod version_grabber;
 
-const APK_ID: &str = "com.beatgames.beatsaber";
+const APK_ID: &str = "com.beatgames.beatpaber";
 const APK_DATA_DIR: &str = "apk_data";
 const BS_VERSIONS_PATH: &str = formatcp!("{APK_DATA_DIR}/versions");
 const DIFFS_PATH: &str = formatcp!("{APK_DATA_DIR}/diffs");

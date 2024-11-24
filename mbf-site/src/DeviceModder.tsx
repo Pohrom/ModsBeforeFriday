@@ -22,7 +22,7 @@ interface DeviceModderProps {
 }
 
 export async function uninstallBeatSaber(device: Adb) {
-    await device.subprocess.spawnAndWait("pm uninstall com.beatgames.beatsaber");
+    await device.subprocess.spawnAndWait("pm uninstall com.beatgames.beatpaber");
 }
 
 const isDeveloperUrl: boolean = new URLSearchParams(window.location.search).get("dev") === "true";

@@ -41,7 +41,7 @@ function ModTools({ device, quit, modStatus, setModStatus }: {
         <button onClick={async () => {
             const setError = useSetError("Failed to kill Beat Saber process");
             try {
-                await device.subprocess.spawnAndWait("am force-stop com.beatgames.beatsaber");
+                await device.subprocess.spawnAndWait("am force-stop com.beatgames.beatpaber");
                 toast.success("Successfully killed Beat Saber");
             }   catch(e) {
                 setError(e);

@@ -528,7 +528,7 @@ pub fn get_modloader_installed(apk: &mut ZipFile<File>) -> Result<Option<ModLoad
 }
 
 /// Checks that there is at least one file with extension .obb in the
-/// `/sdcard/Android/obb/com.beatgames.beatsaber` folder.
+/// `/sdcard/Android/obb/com.beatgames.beatpaber` folder.
 ///
 /// MBF only supports BS versions >1.35.0, which all use OBBs so if the obb is not present
 /// the installation is invalid and we need to prompt the user to uninstall it.

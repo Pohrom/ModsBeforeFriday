@@ -29,7 +29,7 @@ pub const OBB_DIR: &str = formatcp!("/sdcard/Android/obb/{APK_ID}/");
 
 /// Path to the `PlayerData.dat` of the `datakeeper` mod.
 pub const DATAKEEPER_PLAYER_DATA: &str =
-    "/sdcard/ModData/com.beatgames.beatsaber/Mods/datakeeper/PlayerData.dat";
+    "/sdcard/ModData/com.beatgames.beatpaber/Mods/datakeeper/PlayerData.dat";
 /// An auxillary path that `PlayerData.dat` is copied to when modding in case it is corrupted/lost for any other reason.
 pub const AUX_DATA_BACKUP: &str = "/sdcard/ModsBeforeFriday/PlayerData.backup.dat";
 
